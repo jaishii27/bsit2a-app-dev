@@ -13,6 +13,7 @@
             subtitle="Logged in"
             title="Jai"
           ></v-list-item>
+
         </template>
 
         <v-divider></v-divider>
@@ -21,6 +22,10 @@
           <v-list-item prepend-icon="mdi-home-city" title="Home" value="home"></v-list-item>
           <v-list-item prepend-icon="mdi-account" title="My Account" value="account"></v-list-item>
           <v-list-item prepend-icon="mdi-account-group-outline" title="Users" value="users"></v-list-item>
+          <v-list-item prepend-icon="mdi-account-group-outline" title="Prelim" value="prelim" to="/prelim"></v-list-item>
+          <v-list-item prepend-icon="mdi-account-group-outline" title="Remedial" value="remedial" to="/remedial"></v-list-item>
+          
+
         </v-list>
       </v-navigation-drawer>
 

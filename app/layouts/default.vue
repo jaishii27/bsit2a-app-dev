@@ -10,9 +10,9 @@
         <template v-slot:prepend>
           <v-list-item
             lines="two"
-            prepend-avatar="https://randomuser.me/api/portraits/women/81.jpg"
-            subtitle="Logged in yarn"
-            title="Daniluh"
+            prepend-avatar="https://media.craiyon.com/2025-04-28/PIgkwd-gTpu3f9IFIYTfUw.webp"
+            subtitle="Logged in "
+            title="Jai"
           ></v-list-item>
         </template>
 

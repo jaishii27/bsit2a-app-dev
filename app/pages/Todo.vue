@@ -21,7 +21,7 @@
           </v-toolbar>
 
         <v-form class="ma-5">
-          <v-text-field label="Title" v-model="title"</v-text-field>
+          <v-text-field label="Title" v-model="title"></v-text-field> 
           <v-text-field label="Priority" v-model="priority" type="number"></v-text-field>
           <v-date-input prepend-icon="" v-model="dueDate" label="Due Date"></v-date-input>
         </v-form>
@@ -43,7 +43,7 @@
           </v-toolbar>
 
         <v-form class="ma-5">
-          <v-text-field label="Title" v-model="title"</v-text-field>
+          <v-text-field label="Title" v-model="title"></v-text-field>
           <v-text-field label="Priority" v-model="priority" type="number"></v-text-field>
           <v-date-input prepend-icon="" v-model="dueDate" label="Due Date"></v-date-input>
         </v-form>

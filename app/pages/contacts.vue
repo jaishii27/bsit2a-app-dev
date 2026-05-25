@@ -137,6 +137,11 @@
               {{ item.address.state }}
             </small>
 
+            <!-- ZIP CODE -->
+            <div class="text-primary">
+              ZIP: {{ item.address.zip }}
+            </div>
+
           </div>
 
         </template>
@@ -197,6 +202,14 @@
 
 
         <v-card-text class="pt-5">
+
+          <v-text-field
+            label="ID"
+            prepend-inner-icon="mdi-identifier"
+            variant="outlined"
+            v-model="id"
+          ></v-text-field>
+
 
           <v-text-field
             label="Full Name"
@@ -313,6 +326,13 @@
 
 
         <v-card-text class="pt-5">
+
+          <v-text-field
+            label="ID"
+            variant="outlined"
+            v-model="id"
+          ></v-text-field>
+
 
           <v-text-field
             label="Full Name"
@@ -496,6 +516,8 @@ const createContact = async () => {
 
       body: {
 
+        id: id.value,
+
         name: name.value,
         email: email.value,
         phone: phone.value,
@@ -561,6 +583,8 @@ const updateContact = async () => {
         method: 'PUT',
 
         body: {
+
+          id: id.value,
 
           name: name.value,
           email: email.value,
